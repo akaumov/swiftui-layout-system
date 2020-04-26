@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Image("sakura")
+        .resizable()
+            .frame(width: 200, height: 200)
+            .border(Color.pink, width: 3)
+            .position(x: 120, y: 120)
+        .frame(width: 300, height: 300)
+            .border(Color.purple, width: 20)
+            .shadow(radius: 10)
+        
     }
 }
 
