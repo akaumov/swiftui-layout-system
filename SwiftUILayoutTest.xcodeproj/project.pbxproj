@@ -14,8 +14,9 @@
 		AAFB584C2456164B00EA68AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFB584B2456164B00EA68AB /* Assets.xcassets */; };
 		AAFB584F2456164B00EA68AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFB584E2456164B00EA68AB /* Preview Assets.xcassets */; };
 		AAFB58522456164B00EA68AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFB58502456164B00EA68AB /* LaunchScreen.storyboard */; };
-		AAFB58762456399C00EA68AB /* LayouBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB58752456399C00EA68AB /* LayouBasics.swift */; };
-		AAFB587824563BDE00EA68AB /* ImageInsideFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB587724563BDE00EA68AB /* ImageInsideFrame.swift */; };
+		AAFB58762456399C00EA68AB /* LayoutBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB58752456399C00EA68AB /* LayoutBasics.swift */; };
+		AAFB587824563BDE00EA68AB /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB587724563BDE00EA68AB /* Frame.swift */; };
+		AAFB587A245641FD00EA68AB /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB5879245641FD00EA68AB /* Stacks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,9 @@
 		AAFB58532456164B00EA68AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAFB58582456164B00EA68AB /* SwiftUILayoutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILayoutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFB58632456164B00EA68AB /* SwiftUILayoutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILayoutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAFB58752456399C00EA68AB /* LayouBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayouBasics.swift; sourceTree = "<group>"; };
-		AAFB587724563BDE00EA68AB /* ImageInsideFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInsideFrame.swift; sourceTree = "<group>"; };
+		AAFB58752456399C00EA68AB /* LayoutBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutBasics.swift; sourceTree = "<group>"; };
+		AAFB587724563BDE00EA68AB /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		AAFB5879245641FD00EA68AB /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 				AAFB58422456164A00EA68AB /* AppDelegate.swift */,
 				AAFB58442456164A00EA68AB /* SceneDelegate.swift */,
 				AAFB58492456164A00EA68AB /* ContentView.swift */,
-				AAFB58752456399C00EA68AB /* LayouBasics.swift */,
-				AAFB587724563BDE00EA68AB /* ImageInsideFrame.swift */,
+				AAFB5879245641FD00EA68AB /* Stacks.swift */,
+				AAFB58752456399C00EA68AB /* LayoutBasics.swift */,
+				AAFB587724563BDE00EA68AB /* Frame.swift */,
 				AAFB584B2456164B00EA68AB /* Assets.xcassets */,
 				AAFB58502456164B00EA68AB /* LaunchScreen.storyboard */,
 				AAFB58532456164B00EA68AB /* Info.plist */,
@@ -251,9 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAFB58482456164A00EA68AB /* SwiftUILayoutTest.xcdatamodeld in Sources */,
-				AAFB58762456399C00EA68AB /* LayouBasics.swift in Sources */,
+				AAFB58762456399C00EA68AB /* LayoutBasics.swift in Sources */,
 				AAFB58432456164A00EA68AB /* AppDelegate.swift in Sources */,
-				AAFB587824563BDE00EA68AB /* ImageInsideFrame.swift in Sources */,
+				AAFB587824563BDE00EA68AB /* Frame.swift in Sources */,
+				AAFB587A245641FD00EA68AB /* Stacks.swift in Sources */,
 				AAFB584A2456164A00EA68AB /* ContentView.swift in Sources */,
 				AAFB58452456164A00EA68AB /* SceneDelegate.swift in Sources */,
 			);

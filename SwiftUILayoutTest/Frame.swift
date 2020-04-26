@@ -64,6 +64,16 @@ struct ImageInsideFrameWithPosition: View {
     }
 }
 
+// The child ultimately chooses its own size
+struct ImageInsideFrameOverflow: View {
+    var body: some View {
+        Image("sakura")
+        .border(Color.red, width: 8)
+            .frame(width: 30, height: 200)
+            .border(Color.blue, width: 5)
+    }
+}
+
 
 struct Frame_Previews: PreviewProvider {
     static var previews: some View {
@@ -78,6 +88,8 @@ struct Frame_Previews: PreviewProvider {
             .previewDisplayName("With offset")
             ImageInsideFrameWithPosition()
             .previewDisplayName("With position")
+            ImageInsideFrameOverflow()
+            .previewDisplayName("Frame overflow")
         }
     }
 }
